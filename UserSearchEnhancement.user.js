@@ -1,10 +1,10 @@
 // ==UserScript==
 // @name         Mod Tools User Search Enhancement
-// @author	 	 Carbon
-// @version      1.0
+// @author       Carbon
+// @version      1.1
 // @description  Pressing enter when searching for a user will change the played within filter to whenever and filter for you in TagPro Mod Tools.
 // @updateURL    https://github.com/vCarbonnn/UserSearchEnhancement/raw/master/UserSearchEnhancement.user.js
-// @include      http://tagpro-*.koalabeast.com/moderate/users*
+// @include      *://tagpro*.koalabeast.com/moderate/users*
 // ==/UserScript==
 
 document.getElementById("filterName").onkeypress = function(e) {
